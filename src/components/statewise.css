@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+.death:hover{
+  background-color: red;
+}
+.confirmed:hover{
+  background-color: greenyellow;
+}
+.state:hover{
+  background-color: greenyellow;
+}
+.recovered:hover{
+  background-color: greenyellow;
+}
+.active:hover{
+  background-color: greenyellow;
+}
+.lastupdatedtime:hover{
+  background-color: greenyellow;
+}
